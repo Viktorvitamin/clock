@@ -6,6 +6,8 @@
   gap: 135px;
   background-image: url("/img/intro-background.png");
   background-repeat: no-repeat;
+  background-position-x: 70%;
+  background-position-y: 100%;
 }
 .intro-text-line {
   width: 50px;
@@ -30,4 +32,23 @@
   font-size: 14px;
   color: rgba(27, 26, 23, 0.8196078431);
   margin-bottom: 60px;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+  border-width: 4px;
+}
+.img::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 1px;
+  border-radius: 50%;
+  background: linear-gradient(to left, #E2D0C4, transparent);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
 }
