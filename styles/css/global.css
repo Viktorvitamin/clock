@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  min-width: 1200px;
+  font-family: "Roboto" "Playfair Display";
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Playfair Display";
+}
+
+p {
+  font-family: "Roboto";
+}
+
+.btn {
+  display: inline-block;
+  background-color: #444240;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 25px 37px;
+  transition: 0.3s opacity;
+}
+.btn--pink {
+  background-color: #D4B098;
+}
+.btn:hover {
+  opacity: 0.8;
+}

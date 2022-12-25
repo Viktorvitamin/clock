@@ -1,0 +1,33 @@
+.intro-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FDFDFB;
+  gap: 135px;
+  background-image: url("/img/intro-background.png");
+  background-repeat: no-repeat;
+}
+.intro-text-line {
+  width: 50px;
+  height: 1px;
+  background-color: #8B8371;
+  display: inline-block;
+}
+.intro-text-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.intro-text-title2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.intro-text-paragraph {
+  width: 265px;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(27, 26, 23, 0.8196078431);
+  margin-bottom: 60px;
+}
