@@ -9,22 +9,24 @@
 
     background-image: url('/img/intro-background.png');
     background-repeat: no-repeat;
-    background-position-x: 70%;
+    background-position-x: 65%;
     background-position-y: 100%;
   }
 
   &-text {    
-    
+    position: relative;
 
-    &-line {
+    &__line {
       width: 50px;
       height: 1px;
-      background-color: #8B8371;
-      display: inline-block;
+      background-color: #8B8371;      
+      position: absolute;
+      left: -20%;
+      bottom: 89%;
       
     }
 
-    &-title {
+    &__title {
       font-family: "Playfair Display";
       font-weight: 400;
       font-size: 45px;
@@ -33,23 +35,52 @@
       
     }
 
-    &-title2 {
+    &__title2 {
       font-weight: 400;
       font-size: 30px;
       margin-bottom: 35px;
     }
 
-    &-paragraph {
+    &__paragraph {
       width: 265px;
       font-weight: 300;
       font-size: 14px;
       color: #1B1A17D1;
       margin-bottom: 60px;
-    }   
-
-    
+    }    
   }
   
+  &-promo {
+    position: relative;
+
+    &__price {
+      font-family: "Prata";
+      position: absolute;
+      top: 17%;
+      left: -17%;
+    }
+
+    &__line--top {
+      position: absolute;
+      left: 130%;
+      bottom: 53%;
+      
+    }
+
+    &__specifications {
+      font-family: "Prata";
+      position: absolute;
+      right: -18%;
+      bottom: 18%;  
+    }
+
+    &__line--bottom {
+      position: absolute;
+      left: -60%;
+      bottom: 50%;
+     
+    }
+  }
 }
 
 .img {

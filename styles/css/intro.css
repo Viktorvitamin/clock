@@ -6,32 +6,62 @@
   gap: 135px;
   background-image: url("/img/intro-background.png");
   background-repeat: no-repeat;
-  background-position-x: 70%;
+  background-position-x: 65%;
   background-position-y: 100%;
 }
-.intro-text-line {
+.intro-text {
+  position: relative;
+}
+.intro-text__line {
   width: 50px;
   height: 1px;
   background-color: #8B8371;
-  display: inline-block;
+  position: absolute;
+  left: -20%;
+  bottom: 89%;
 }
-.intro-text-title {
+.intro-text__title {
   font-family: "Playfair Display";
   font-weight: 400;
   font-size: 45px;
   margin-bottom: 10px;
 }
-.intro-text-title2 {
+.intro-text__title2 {
   font-weight: 400;
   font-size: 30px;
   margin-bottom: 35px;
 }
-.intro-text-paragraph {
+.intro-text__paragraph {
   width: 265px;
   font-weight: 300;
   font-size: 14px;
   color: rgba(27, 26, 23, 0.8196078431);
   margin-bottom: 60px;
+}
+.intro-promo {
+  position: relative;
+}
+.intro-promo__price {
+  font-family: "Prata";
+  position: absolute;
+  top: 17%;
+  left: -17%;
+}
+.intro-promo__line--top {
+  position: absolute;
+  left: 130%;
+  bottom: 53%;
+}
+.intro-promo__specifications {
+  font-family: "Prata";
+  position: absolute;
+  right: -18%;
+  bottom: 18%;
+}
+.intro-promo__line--bottom {
+  position: absolute;
+  left: -60%;
+  bottom: 50%;
 }
 
 .img {

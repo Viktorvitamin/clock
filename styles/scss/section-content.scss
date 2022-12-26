@@ -1,0 +1,14 @@
+.section-content {
+  &__text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 32px;
+    color: #1B1A17;
+    margin-right: 330px;
+  }
+}
